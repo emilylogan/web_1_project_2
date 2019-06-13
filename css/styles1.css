@@ -16,6 +16,45 @@
   }
   /*END OF HEADER*/
 
+/* NAV */
+nav {
+	display: grid;
+	grid-template-columns: 6fr 1fr;
+  margin-left: 55px;
+  margin-right: 50px;
+  height: 125px;
+}
+
+#leftnav {
+	display: flex; 
+	justify-content: space-between;
+	align-items: center;
+	width: 50%; 
+  font-size: 80%;
+}
+
+#rightnav {
+	display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:center;
+  font-size: 80%;
+}
+
+img[alt="social-icon"] {
+	width: 40px;
+  border-radius: 8px;
+}
+
+a.navlink {
+  color: black;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-family: 'Museo';
+  src: url(../assets/fonts/museo/museo-300-webfont.woff) format("woff");
+}
+/* END of NAV */
+
 /* Slider */
 #slider2 {
     position: relative;
