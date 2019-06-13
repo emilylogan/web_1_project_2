@@ -1,0 +1,369 @@
+@font-face {
+    font-family: 'Museo';
+    src: url(../assets/fonts/museo/museo-300-webfont.woff) format("woff");
+  }
+  
+  body {
+    font-family: "Museo", sans-serif;
+  }
+  
+  /*HEADER */
+  header {
+    background:   url(https://github.com/emilylogan/web_1_project_2/blob/master/assets/textures/fabric_plaid.png?raw=true);
+    background-size: cover;
+    height: 210vh;
+    margin: 15px 0px;
+  }
+  /*END OF HEADER*/
+  
+  /* NAV */
+  nav {
+      display: grid;
+      grid-template-columns: 6fr 1fr;
+    margin-left: 55px;
+    margin-right: 50px;
+    height: 125px;
+  }
+  
+  #leftnav {
+      display: flex; 
+      justify-content: space-between;
+      align-items: center;
+      width: 50%; 
+    font-size: 80%;
+  }
+  
+  #rightnav {
+      display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    font-size: 80%;
+  }
+  
+  img[alt="social-icon"] {
+      width: 40px;
+    border-radius: 8px;
+  }
+  
+  a.navlink {
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-family: 'Museo';
+    src: url(../assets/fonts/museo/museo-300-webfont.woff) format("woff");
+  }
+  /* END of NAV */
+  
+  /* Slider */
+  #slider {
+    position: relative;
+    margin: 10px 50px;
+  }
+  
+  #main-white-body {
+    display: relative;
+    background: url(https://www.cats.org.uk/uploads/images/featurebox_sidebar_kids/grief-and-loss.jpg);
+    background-size: cover;
+    background-position: 20% 50%;
+    border-top: 6px solid white;
+    border-left: 6px solid white;
+    border-right: 6px solid white;
+    height: 312px;
+  }
+  
+  #sub-dark-gray-section {
+    display: flex;
+    position: relative;
+    background-color: #8c8c8c;
+    height:50px;
+    justify-content:flex-end;
+    color: white;
+    align-items:center;
+    padding: 1px 20px;
+    border-right: 6px solid white;
+    border-left: 6px solid white;
+    border-bottom: 6px solid white;
+  }
+  
+  #left-arrow {
+    position: absolute;
+    top: 150px;
+    left: -12px;
+    height: 40px;
+    width: 40px;
+  }
+  
+  #right-arrow {
+    position: absolute;
+    top: 75px;
+    right: -6px;
+    height: 40px;
+    width: 40px;
+  }
+  /* END of SLIDER */
+  
+  /* TEXT1 */
+  #text1 {
+    font-size:17px;
+    display:flex;
+    justify-content:center;
+    padding: 30px;
+    margin: 15px 50px;
+  }
+  /* END of TEXT1*/
+  
+  /* GALLERY*/
+  #gallery1 {
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    justify-content: center;
+    margin: 15px 50px;
+  }
+  
+  .gallery1 {
+      height: 30vh;
+  }
+  
+  #box-1 {
+    background: url(https://www.catster.com/wp-content/uploads/2018/05/A-gray-cat-crying-looking-upset.jpg);
+    background-size: cover;
+    background-position: 60% 40%;
+  }
+  #box-2 {
+    background: url(https://public-media.si-cdn.com/filer/56/4a/564a542d-5c37-4be7-8892-98201ab13180/cat-2083492_1280.jpg);
+    background-size: cover;
+    background-position: 45% 27%;
+  }
+  #box-3 {
+    background: url(https://i.kinja-img.com/gawker-media/image/upload/s--kHrQ8nr7--/c_scale,f_auto,fl_progressive,q_80,w_800/18huxz4bvnfjbjpg.jpg);
+    background-size: cover;
+    background-position: 30% 20%; 
+  }
+  #box-4 {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9doKwlIPqicmGCkpMg2V-7NiyH2-8MvSCBjEzcOfTxvjrtOzt);
+    background-size:cover;
+    background-position: 50% 40%;
+  }
+  #box-5 {
+    background: url(https://pbs.twimg.com/profile_images/1107667540380143616/XPKsu77o_400x400.jpg);
+    background-size: cover;
+    background-position: 30% 50%;
+  }
+  #box-6 {
+    background: url(https://images2.minutemediacdn.com/image/upload/c_crop,h_1191,w_2121,x_0,y_34/f_auto,q_auto,w_1100/v1554738990/shape/mentalfloss/78233-istock-965506882.jpg);
+    background-size: cover;
+    background-position: 50% 70% ;
+  }
+  #box-7 {
+    background: url(http://student.madacad.com/period1/jadefinal/ragdoll.jpg);
+    background-size: cover;
+    background-position:40% 50% ;
+  }
+  #box-8 {
+    background: url(https://cdn.thewirecutter.com/wp-content/uploads/2018/07/catadoption-lowres-06052-2x1-1.jpg);
+    background-size: cover;
+    background-position: 70% 40% ;
+  }
+  #box-9 {
+    background: url(https://www.petmd.com/sites/default/files/skin-cancer-cats.jpg);
+    background-size: cover;
+    background-position: 60% 35% ;
+  }
+  #box-10 {
+    background: url(https://2ndchanceanimalcenter.org/cats/thumbs/persephone-3.23.2019.jpg);
+    background-size: cover;
+    background-position: 20% 10%;
+  }
+  #box-11 {
+    background: url(https://mynorthwest.com/wp-content/uploads/2019/04/GettyImages-89849246.jpg);
+    background-size: cover;
+    background-position: 30% 60%;
+  }
+  #box-12 {
+    background: url(https://img.purch.com/w/660/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzEwNS81NjMvb3JpZ2luYWwva2l0dHktYnV0dC5qcGc=);
+    background-size: cover;
+    background-position:40% 40% ;
+  }
+  /*END of GALLEY*/
+  
+  /*BUTTON*/
+  #viewmore {
+    display: flex;
+    justify-content:center;
+  }
+  
+  .button {
+    padding: 10px 80px;
+    top: 300x;
+    width: 90px;
+    background: url(https://github.com/emilylogan/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true);
+    background-color: #D4D4D4;
+    background-blend-mode: multiply; 
+    color:white;
+    text-decoration: none;
+  }
+  
+  /*END of BUTTON*/
+  
+  /* FOOTER */
+  #footer {
+    position: relative;
+  }
+  
+  /* FooterBody */
+  #FooterBody {
+    position: absolute;
+    margin: 15px 0px;
+    height: 230px;
+    top: 40px;
+    right: 0px;
+    left: 0px;
+    display: flex;
+    
+    /* FooterBody TEXTURE */
+    background: url(https://github.com/emilylogan/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true);
+    background-color:#D4D4D4;
+    background-blend-mode: multiply;
+  }
+  
+  /* SUBFOOTER */
+  #SubFooter {
+    position: absolute;
+    height: 40px;
+    background: #8c8c8c;
+    right: 0px;
+    left: 0px;
+    top: 15px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+  }
+    
+  #bird {
+    height: 20px;
+    width: 20px;
+  }
+  
+  em {
+    font-size: 20px;
+    font-style: normal;
+    color: white;
+  }
+  
+  p {
+    color: white;
+  }
+  
+  /* LEFT CENTER RIGHT*/
+  #leftfooter, #center, #rightfooter {
+    width: 33%;
+    margin: 18px;
+  }
+  
+  /* 
+  h2, h3, p, a:link {
+      font-family: Museo, Sans-Serif;
+  }
+  */
+  
+  h2 {
+    font-size: 15px;
+  }
+  
+  h3 {
+    font-size: 14px;
+    color: white;
+  }
+  
+  h4 {
+    font-size: 15px; 
+    padding-left: 5px;
+    position: absolute;
+    top:125px;
+    right: 650px;
+    color:#D4D4D4;
+  }
+  #magnifying-glass {
+    height: 20px;
+    width: 20px;
+    padding-right: 7px;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  #search-bar {
+    position:relative;
+    background-color:white;
+    display:flex;
+    height: 30px;
+  }
+  
+  a.footerlinks {
+    color: black;
+    text-decoration: none;
+    font-size: 66%;
+    position: relative;
+    bottom: 16px;
+  }
+  
+  #logo {
+    width: 25%;
+  }
+  
+  /* Right Gallery */
+  #gallery2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 5px;
+    justify-content: center;
+  }
+  
+  .gallery {
+      height: 60px;
+  }
+  
+  #box-a {
+    background: url(https://www.catster.com/wp-content/uploads/2018/05/A-gray-cat-crying-looking-upset.jpg);
+    background-size: cover;
+    background-position: 70% 60%;
+  }
+  #box-b {
+    background: url(https://public-media.si-cdn.com/filer/56/4a/564a542d-5c37-4be7-8892-98201ab13180/cat-2083492_1280.jpg);
+    background-size: cover;
+    background-position: 32% 27%;
+  }
+  #box-c {
+    background: url(https://i.kinja-img.com/gawker-media/image/upload/s--kHrQ8nr7--/c_scale,f_auto,fl_progressive,q_80,w_800/18huxz4bvnfjbjpg.jpg);
+    background-size: cover;
+    background-position: 40% 30%; 
+  }
+  #box-d {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9doKwlIPqicmGCkpMg2V-7NiyH2-8MvSCBjEzcOfTxvjrtOzt);
+    background-size:cover;
+    background-position: 50% 40%;
+  }
+  #box-e {
+    background: url(https://pbs.twimg.com/profile_images/1107667540380143616/XPKsu77o_400x400.jpg);
+    background-size: cover;
+    background-position: 60% 40%;
+  }
+  #box-f {
+    background: url(https://images2.minutemediacdn.com/image/upload/c_crop,h_1191,w_2121,x_0,y_34/f_auto,q_auto,w_1100/v1554738990/shape/mentalfloss/78233-istock-965506882.jpg);
+    background-size: cover;
+    background-position: 50% 70% ;
+  }
+  #box-g {
+    background: url(http://student.madacad.com/period1/jadefinal/ragdoll.jpg);
+    background-size: cover;
+    background-position:40% 50% ;
+  }
+  #box-h {
+    background: url(https://cdn.thewirecutter.com/wp-content/uploads/2018/07/catadoption-lowres-06052-2x1-1.jpg);
+    background-size: cover;
+    background-position: 70% 40% ;
+  }
+  
