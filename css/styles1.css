@@ -398,6 +398,11 @@ a.navlink {
   #logo {
     width: 25%;
   }
+
+ .student-detail {
+    text-decoration:none;
+    color:black;
+  }
   
   /* Right Gallery */
   #gallery2 {
